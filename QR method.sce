@@ -6,6 +6,6 @@ n= input("Enter the no. iterations---")
 
 for k= 1:n
     [Q,R]= qr(A)
-    disp(R)
+    disp(A)
     A=R*Q;
 end
